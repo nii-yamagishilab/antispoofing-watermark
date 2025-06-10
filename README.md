@@ -55,22 +55,21 @@ Links (to be added)
 > ⚠️ Some external tools (e.g., AASIST, SSL-AASIST) may have their own CUDA or PyTorch requirements. Please check their official repositories for compatibility.
 
 
-### Step 1: [Optional] Install spoofing & watermarking tools
+### Step 1: Install spoofing & watermarking tools
 
-These tools are optional, but required for specific spoofing/watermarking tasks.
+These tools are necessary to reproduce the results in the paper
 
 1. **AASIST**  
    - Ensure AASIST is properly installed before use.  
    - See the [AASIST GitHub repository](https://github.com/clovaai/aasist) for installation details.
-
+   - Get the [trained checkpoint](https://github.com/clovaai/aasist/blob/main/models/weights/AASIST.pth) from official repo 
 2. **SSL-AASIST**  
    - Ensure SSL-AASIST is properly installed before use.  
    - See the [SSL_Anti-spoofing GitHub repository](https://github.com/TakHemlata/SSL_Anti-spoofing) for installation details.
-
+   - Get the [trained checkpoint](https://drive.google.com/drive/folders/1c4ywztEVlYVijfwbGLl9OEa1SNtFKppB?usp=sharing) from official repo
 3. **AudioSeal**  
    - Ensure AudioSeal is properly installed before use.  
    - See the [AudioSeal GitHub repository](https://github.com/facebookresearch/audioseal) for installation details.
-
 4. **Timbre**  
    - Ensure Timbre is properly installed before use.  
    - See the [Timbre GitHub repository](https://github.com/TimbreWatermarking/TimbreWatermarking)  for installation details.
@@ -86,7 +85,7 @@ These tools are optional, but required for specific spoofing/watermarking tasks.
    pip install -r requirements.txt
     ```
     
-2. [Optional] Put spoofing & watermarking tools under `antispoofing-watermark`
+2. Put spoofing & watermarking tools under `antispoofing-watermark`
     ```bash
     cd <antispoofing-watermark-root>
     ln -s <AASIST-root> .

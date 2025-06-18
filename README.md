@@ -6,7 +6,7 @@ A Comparative Study on Proactive and Passive Detection of Deepfake Speech,
 Chia-Hua Wu, Wanying Ge, Xin Wang, Junichi Yamagishi, Yu Tsao, Hsin-Min Wang
 Interspeech 2025 (accepted)
 ```
-Links (to be added)
+[Paper Link](https://arxiv.org/abs/2506.14398)
 
 ## Key Features
 
